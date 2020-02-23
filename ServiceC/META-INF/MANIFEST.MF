@@ -1,0 +1,11 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: ServiceC
+Bundle-SymbolicName: ServiceC
+Bundle-Version: 1.0.0.qualifier
+Bundle-Activator: serviceC.ServiceCActivator
+Bundle-RequiredExecutionEnvironment: JavaSE-1.8
+Automatic-Module-Name: ServiceC
+Import-Package: org.osgi.framework;version="1.3.0",
+ publishera
+Bundle-ActivationPolicy: lazy

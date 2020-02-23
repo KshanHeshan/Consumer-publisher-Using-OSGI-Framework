@@ -1,0 +1,11 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: ServiceB
+Bundle-SymbolicName: ServiceB
+Bundle-Version: 1.0.0.qualifier
+Bundle-Activator: serviceb.ServiceBActivator
+Bundle-RequiredExecutionEnvironment: JavaSE-1.8
+Automatic-Module-Name: ServiceB
+Import-Package: org.osgi.framework;version="1.3.0",
+ publishera
+Bundle-ActivationPolicy: lazy

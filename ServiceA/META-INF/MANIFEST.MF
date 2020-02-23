@@ -1,0 +1,11 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: ServiceA
+Bundle-SymbolicName: ServiceA
+Bundle-Version: 1.0.0.qualifier
+Bundle-Activator: serviceA.ServiceAActivator
+Bundle-RequiredExecutionEnvironment: JavaSE-1.8
+Automatic-Module-Name: ServiceA
+Import-Package: org.osgi.framework, publishera
+Bundle-ActivationPolicy: lazy
+Require-Bundle: PublisherA
